@@ -19,3 +19,9 @@ public class Main {
       }
     }
 } 
+arr = [1, 3, 4, 4, 5]
+ue = 1
+i = 1 → 3 ≠ 1 → arr[1] = 3 → ue = 2
+i = 2 → 4 ≠ 3 → arr[2] = 4 → ue = 3
+i = 3 → 4 = 4 → skip
+i = 4 → 5 ≠ 4 → arr[3] = 5 → ue = 4
